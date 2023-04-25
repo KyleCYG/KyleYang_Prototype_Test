@@ -34,11 +34,11 @@ body{
     align-items: center;
     padding: 5em 0px;
     gap: 5em;
-/*     position: absolute; */
+    /* position: absolute; */
     width: 100%;
     height: 100%;
-/*     left: 0px; */
-/*     top: 0px; */
+    left: 0px;
+    top: 0px;
 }
 
 .texts {
@@ -143,19 +143,17 @@ body{
 }
     
 .card-info {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 24px;
-
-    position: absolute;
+    /* position: absolute; */
     width: 195px;
     height: 158px;
-    left: 40px;
-    top: 60px;
-}
+    /* left: 40px; */
+    /* top: 60px; */
+    }
 
 .info {
 
@@ -177,7 +175,7 @@ body{
 
 }
 
-    .name {
+.name {
     /* Dorayaki */
 
     width: 195px;
@@ -206,7 +204,7 @@ body{
     flex-grow: 0;
 }
 
-    .button {
+.button {
     /* Button */
 
     box-sizing: border-box;
@@ -235,7 +233,7 @@ body{
 
 }
 
-    .button:hover{
+.button:hover{
     background: rgba(242, 202, 166, 0.3);
     box-shadow: 0px 0px 6px #F2CAA6;
 }
@@ -270,31 +268,26 @@ body{
 
 .card-datas {
     /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     padding: 0px;
     gap: 48px;
-
     position: absolute;
     width: 195px;
     height: 44px;
     left: 40px;
     top: 258px;
-
 }
 
 .card-data {
     /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 4px;
-
     width: auto;
     height: 44px;
 
@@ -302,6 +295,7 @@ body{
     /* Inside auto layout */
     flex: none;
     flex-grow: 0;
+    flex-wrap: nowrap;
 }
 
 .percentage {
@@ -329,7 +323,7 @@ body{
     width: 61px;
     height: 26px;
 
-    font-family: 'ArchivoBlack-Regular';
+    font-family: 'Archivo Black';
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
@@ -355,7 +349,7 @@ body{
     width: 16px;
     height: 16px;
 
-    font-family: 'ArchivoBlack-Regular';
+    font-family: 'Archivo Black';
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
