@@ -157,7 +157,7 @@ body{
     top: 60px;
 }
 
-.card-info .info {
+.info {
 
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@ body{
 
 }
 
-.info .name {
+    .name {
     /* Dorayaki */
 
     width: 195px;
@@ -206,7 +206,7 @@ body{
     flex-grow: 0;
 }
 
-.info .button {
+    .button {
     /* Button */
 
     box-sizing: border-box;
@@ -235,12 +235,12 @@ body{
 
 }
 
-.info .button:hover{
+    .button:hover{
     background: rgba(242, 202, 166, 0.3);
     box-shadow: 0px 0px 6px #F2CAA6;
 }
 
-.button .button-label {
+.button-label {
     /* Button Label */
 
     width: auto;
