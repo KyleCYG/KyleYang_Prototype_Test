@@ -32,9 +32,28 @@
     
         });
 
+        /* 添加touchmove监听 */
+        cardy.addEventListener('touchmove', e => {
+            rect = cardy.getBoundingClientRect();
+            x = e.clientX - rect.left;
+            y = e.clientY - rect.top;
+            
+            /* 为card添加渐变spotlight */
+            cardy.style.setProperty("background", "radial-gradient(180px 180px at " + x + "px " + y + "px , rgba(255, 230, 214, 0.2), rgba(255, 255, 255, 0.03))");
+    
+        });
+
         /* 添加mouseout监听 */
         cardy.addEventListener('mouseout', e => {
     
+            /* 移除spotlight */
+            cardy.style.removeProperty("background", "radial-gradient(180px 180px at " + x + "px " + y + "px , rgba(255, 230, 214, 0.2), rgba(255, 255, 255, 0.03))");
+    
+        });
+
+        /* 添加touchend监听 */
+        cardy.addEventListener('touchend', e => {
+
             /* 移除spotlight */
             cardy.style.removeProperty("background", "radial-gradient(180px 180px at " + x + "px " + y + "px , rgba(255, 230, 214, 0.2), rgba(255, 255, 255, 0.03))");
     
