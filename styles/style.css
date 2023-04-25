@@ -271,7 +271,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 6px;
+    gap: 4px;
     width: auto;
     /* height: 44px; */
 
@@ -288,7 +288,7 @@ body{
     flex-direction: row;
     align-items: baseline;
     padding: 0px;
-    gap: 4px;
+    gap: 6px;
     /* width: 78px; */
     /* height: 26px; */
 
