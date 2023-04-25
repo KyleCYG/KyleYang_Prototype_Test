@@ -159,7 +159,7 @@ body{
     flex-wrap: nowrap;
     }
 
-.info {display: flex;flex-direction: column;align-items: center;padding: 0px;gap: 12px;width: 100%;/* height: 70px; */
+.info {display: flex;flex-direction: column;align-items: center;padding: 0px;gap: 16px;width: 100%;/* height: 70px; */
 
     /* Inside auto layout */flex: none;order: 1;align-self: stretch;flex-grow: 0;}
 
@@ -198,10 +198,9 @@ body{
     justify-content: center;
     align-items: flex-start;
     padding: 5px 14px;
-    gap: 10px;
-
+/*     gap: 10px;
     width: 103px;
-    height: 29px;
+    height: 29px; */
 
     background: rgba(242, 202, 166, 0.18);
     border: 0.5px solid rgba(242, 202, 166, 0.8);
@@ -209,9 +208,9 @@ body{
 
     /* Inside auto layout */
 
-    flex: none;
+/*     flex: none;
     order: 1;
-    flex-grow: 0;
+    flex-grow: 0; */
 
 }
 
