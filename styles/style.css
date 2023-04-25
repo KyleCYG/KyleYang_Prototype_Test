@@ -118,12 +118,11 @@ body{
 
 .card {
     box-sizing: border-box;
+    display: flex;
     width: 275px;
-    height: 342px;
-
+    /* height: 342px; */
     -webkit-backdrop-filter: blur(1px);
     backdrop-filter: blur(1px);
-
     background-color: rgba(255, 255, 255, 0.03);
     border: 0.75px solid rgba(176, 176, 255, 0.15);
     border-radius: 12px;
@@ -131,7 +130,10 @@ body{
     /* Inside auto layout */
     flex: none;
     order: 2;
+    gap: 40px;
     flex-grow: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
     }
 
 .icon{
@@ -146,61 +148,40 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding-top: 60px;
     gap: 24px;
     /* position: absolute; */
-    width: 195px;
-    height: 158px;
+    width: 100%;
+    /* height: 158px; */
     /* left: 40px; */
     /* top: 60px; */
+    flex-wrap: nowrap;
     }
 
-.info {
+.info {display: flex;flex-direction: column;align-items: center;padding: 0px;gap: 12px;width: 100%;/* height: 70px; */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 12px;
-
-    width: 195px;
-    height: 70px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-
-}
+    /* Inside auto layout */flex: none;order: 1;align-self: stretch;flex-grow: 0;}
 
 .name {
     /* Dorayaki */
-
-    width: 195px;
-    height: 29px;
-
+    /* width: 195px; */
+    /* height: 29px; */
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 1.2em;
     line-height: 160%;
     /* identical to box height, or 29px */
-
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
-
     -webkit-user-select: none;
     user-select: none;
 
     /* Inside auto layout */
-
     flex: none;
     order: 0;
-    align-self: stretch;
+    /* align-self: stretch; */
     flex-grow: 0;
 }
 
@@ -270,15 +251,15 @@ body{
     /* Auto layout */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
+    justify-content: center;
+    padding-bottom: 40px;
     gap: 48px;
-    position: absolute;
-    width: 195px;
-    height: 44px;
-    left: 40px;
-    top: 258px;
+    /* position: absolute; */
+    width: 100%;
+    /* height: 44px; */
+    /* left: 40px; */
+    /* top: 258px; */
+    flex-wrap: nowrap;
 }
 
 .card-data {
@@ -289,7 +270,7 @@ body{
     padding: 0px;
     gap: 4px;
     width: auto;
-    height: 44px;
+    /* height: 44px; */
 
 
     /* Inside auto layout */
@@ -300,23 +281,20 @@ body{
 
 .percentage {
     /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
     padding: 0px;
-    gap: 1px;
-
-    width: 78px;
-    height: 26px;
+    gap: 4px;
+    /* width: 78px; */
+    /* height: 26px; */
 
 
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-
 }
 
 .number {
@@ -370,31 +348,23 @@ body{
 
 .data-desc {
     /* Description */
-
-    width: 68px;
-    height: 14px;
-
+    /* width: 68px; */
+    /* height: 14px; */
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 120%;
     /* or 14px */
-
     -webkit-user-select: none;
     user-select: none;
-
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #D0D0E2;
-
     opacity: 0.5;
 
     /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
-
 }
