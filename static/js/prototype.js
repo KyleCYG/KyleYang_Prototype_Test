@@ -34,23 +34,24 @@
 
         /* 添加touchmove监听 */
         cardy.addEventListener('touchmove', e => {
+
             rect = cardy.getBoundingClientRect();
+
             e.preventDefault();
             // console.log(rect);
-            // console.log(e.touches[0].clientX);
 
-            x = e.touches[0].clientX - rect.left;
-            y = e.touches[0].clientY - rect.top;
-            
-            /* 打印鼠标位置 */
-            // console.log('------------');
-            // console.log('x = ' + x);
-            // console.log('y = ' + y);
-            // console.log('------------');
 
-            /* 为card添加渐变spotlight */
-            cardy.style.setProperty("background", "radial-gradient(180px 180px at " + x + "px " + y + "px , rgba(255, 230, 214, 0.2), rgba(255, 255, 255, 0.03))");
-    
+            for (let i = 0; i < e.touches.length; i++) {
+                // console.log(e.touches[i].clientX);
+                x = e.touches[i].clientX - rect.left;
+                y = e.touches[i].clientY - rect.top;
+                
+                /* 为card添加渐变spotlight */
+                cardy.style.setProperty("background", "radial-gradient(180px 180px at " + x + "px " + y + "px , rgba(255, 230, 214, 0.2), rgba(255, 255, 255, 0.03))");
+
+            }
+
+  
         });
 
         /* 添加mouseout监听 */
