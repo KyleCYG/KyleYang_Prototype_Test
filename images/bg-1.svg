@@ -1,0 +1,57 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_51)">
+<mask id="mask0_1_51" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="800">
+<rect width="800" height="800" rx="240" fill="url(#paint0_radial_1_51)"/>
+</mask>
+<g mask="url(#mask0_1_51)">
+<rect x="-176" y="11.2" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="76" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="140.8" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="205.6" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="270.4" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="335.2" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="400" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="464.8" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="529.6" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="594.4" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="659.2" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="723.2" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="-176" y="787.2" width="1152" height="0.8" fill="#333A4D"/>
+<rect x="724" y="-176" width="1152" height="0.8" transform="rotate(90 724 -176)" fill="#333A4D"/>
+<rect x="659.2" y="-176" width="1152" height="0.8" transform="rotate(90 659.2 -176)" fill="#333A4D"/>
+<rect x="594.4" y="-176" width="1152" height="0.8" transform="rotate(90 594.4 -176)" fill="#333A4D"/>
+<rect x="529.6" y="-176" width="1152" height="0.8" transform="rotate(90 529.6 -176)" fill="#333A4D"/>
+<rect x="464.8" y="-176" width="1152" height="0.8" transform="rotate(90 464.8 -176)" fill="#333A4D"/>
+<rect x="400" y="-176" width="1152" height="0.8" transform="rotate(90 400 -176)" fill="#333A4D"/>
+<rect x="335.2" y="-176" width="1152" height="0.8" transform="rotate(90 335.2 -176)" fill="#333A4D"/>
+<rect x="270.4" y="-176" width="1152" height="0.8" transform="rotate(90 270.4 -176)" fill="#333A4D"/>
+<rect x="205.6" y="-176" width="1152" height="0.8" transform="rotate(90 205.6 -176)" fill="#333A4D"/>
+<rect x="140.8" y="-176" width="1152" height="0.8" transform="rotate(90 140.8 -176)" fill="#333A4D"/>
+<rect x="76" y="-176" width="1152" height="0.8" transform="rotate(90 76 -176)" fill="#333A4D"/>
+<rect x="400" y="465.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="335.2" y="530.4" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="270.4" y="595.2" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="205.6" y="530.4" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="76" y="530.4" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="140.8" y="465.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="529.6" y="530.4" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="464.8" y="595.2" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="594.4" y="465.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="594.4" y="595.2" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="659.2" y="595.2" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="205.6" y="141.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="76" y="141.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="400" y="141.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+<rect x="659.2" y="141.6" width="64" height="64" fill="white" fill-opacity="0.02"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 400) rotate(90) scale(442.4 442.4)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_1_51">
+<rect width="800" height="800" fill="white"/>
+</clipPath>
+</defs>
+</svg>

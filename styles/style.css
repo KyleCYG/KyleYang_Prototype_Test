@@ -1,0 +1,406 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #121217;
+}
+
+.page-bg {position: fixed;width: 100%;height: 100%;top: 0px;background: radial-gradient(197.49% 106.01% at 50% -6.01%, #232339 0%, #14141E 38.9%, #121217 100%);}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    /* height: 50%; */
+    /* left: 320px; */
+    top: 80px;
+}
+
+.content {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0px;
+    gap: 5em;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3.2em;
+    padding-right: 3.2em;
+    gap: 1.2em;
+    width: auto;
+    height: auto;
+
+
+    /* Inside auto layout */
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.title {
+    /* Hi, this is the prototype I made. */
+    display: flex;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 160%;
+    align-items: flex-start;
+
+    /* identical to box height, or 42px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.description {
+
+    display: flex;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 160%;
+    align-items: flex-start;
+    /* identical to box height, or 29px */
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.flow-field{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 275px);
+    gap: 20px;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 10rem;
+    width: 100%;
+
+    }
+
+.card {
+    box-sizing: border-box;
+    width: 275px;
+    height: 342px;
+
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 0.75px solid rgba(176, 176, 255, 0.15);
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    }
+
+.icon{
+    -webkit-user-select: none;
+    user-select: none;
+
+    -webkit-user-drag: none;
+    /* user-drag:none; */
+}
+    
+.card-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 195px;
+    height: 158px;
+    left: 40px;
+    top: 60px;
+}
+
+.card-info .info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    width: 195px;
+    height: 70px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.info .name {
+    /* Dorayaki */
+
+    width: 195px;
+    height: 29px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info .button {
+    /* Button */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px 14px;
+    gap: 10px;
+
+    width: 103px;
+    height: 29px;
+
+    background: rgba(242, 202, 166, 0.18);
+    border: 0.5px solid rgba(242, 202, 166, 0.8);
+    border-radius: 22px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.info .button:hover{
+    background: rgba(242, 202, 166, 0.3);
+    box-shadow: 0px 0px 6px #F2CAA6;
+}
+
+.button .button-label {
+    /* Button Label */
+
+    width: auto;
+    height: 19px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    /* or 19px */
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    letter-spacing: 0.02em;
+
+    color: #F2CAA6;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.card-datas {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 195px;
+    height: 44px;
+    left: 40px;
+    top: 258px;
+
+}
+
+.card-data {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: auto;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+}
+
+.percentage {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding: 0px;
+    gap: 1px;
+
+    width: 78px;
+    height: 26px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.number {
+    width: 61px;
+    height: 26px;
+
+    font-family: 'ArchivoBlack-Regular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 100%;
+    /* identical to box height, or 26px */
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.percent {
+    /* % */
+
+    width: 16px;
+    height: 16px;
+
+    font-family: 'ArchivoBlack-Regular';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    color: #FFFFFF;
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.data-desc {
+    /* Description */
+
+    width: 68px;
+    height: 14px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 14px */
+
+    -webkit-user-select: none;
+    user-select: none;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #D0D0E2;
+
+    opacity: 0.5;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
