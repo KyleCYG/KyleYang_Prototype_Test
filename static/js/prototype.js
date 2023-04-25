@@ -8,7 +8,7 @@
 
     /* 打印cards数组 */
     // console.log(card);
-    // console.log(rect);
+
 
     /* 遍历cards, 添加监听 */
     for (let i = 0; i < card.length; i++) {
@@ -35,9 +35,19 @@
         /* 添加touchmove监听 */
         cardy.addEventListener('touchmove', e => {
             rect = cardy.getBoundingClientRect();
-            x = e.clientX - rect.left;
-            y = e.clientY - rect.top;
+            e.preventDefault();
+            // console.log(rect);
+            // console.log(e.touches[0].clientX);
+
+            x = e.touches[0].clientX - rect.left;
+            y = e.touches[0].clientY - rect.top;
             
+            /* 打印鼠标位置 */
+            // console.log('------------');
+            // console.log('x = ' + x);
+            // console.log('y = ' + y);
+            // console.log('------------');
+
             /* 为card添加渐变spotlight */
             cardy.style.setProperty("background", "radial-gradient(180px 180px at " + x + "px " + y + "px , rgba(255, 230, 214, 0.2), rgba(255, 255, 255, 0.03))");
     
